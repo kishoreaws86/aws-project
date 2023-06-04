@@ -98,7 +98,7 @@ echo "SNS Topic ARN: $topic_arn"
 aws sns subscribe \
   --topic-arn "$topic_arn" \
   --protocol email \
-  --notification-endpoint "$email_address"
+  --notification-endpoint "$kishore23234@gmail.com"
 
 # Publish SNS
 aws sns publish \
